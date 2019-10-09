@@ -25,6 +25,7 @@ class Home extends Component {
     }
 
     fetchData() {
+        // fecth  data from detik.com rss
         this.setState({ loading: true })
         return fetch(URL, {
             method: 'GET'
